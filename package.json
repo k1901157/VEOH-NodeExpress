@@ -1,0 +1,29 @@
+{
+  "name": "veoh-nodeexpress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app-02-sessions-mongo.js",
+    "start-dev": "nodemon app-02-sessions-mongo.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k1901157/VEOH-NodeExpress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/k1901157/VEOH-NodeExpress/issues"
+  },
+  "homepage": "https://github.com/k1901157/VEOH-NodeExpress#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "mongoose": "^5.8.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
